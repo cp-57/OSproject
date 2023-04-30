@@ -57,7 +57,7 @@ if [ ! -z "$oflag" ]; then
     printf "https://onetimesecret.com/private/$metadata\n"
 else
     # Send an email with the obtained info
-    printf "$capture" | mail -s "Password Info" mail@example.com
+    printf "$capture" | mail -s "Password Info" OSproject@mail.com
 fi
 
 #Clean up flag to delete the password file
